@@ -7,7 +7,7 @@ This is a Block editor inspired by Notion
 - Radix-UI
 - Redux
 
-Check it out here: [https://block-editor-mhxim.vercel.app](https://block-editor-mhxim.vercel.app/)
+Check it out [here](https://block-editor-mhxim.vercel.app/){:target="_blank"}
 
 
 ## Preview
