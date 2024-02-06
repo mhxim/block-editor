@@ -1,3 +1,5 @@
+"use client"
+
 import { DocEditor } from "@/components/tiptap-editor/TiptapTextEditor";
 import Image from "next/image";
 import { useMemo } from "react";
@@ -47,8 +49,13 @@ export default function Home() {
                     type: "blockquote",
                     content: [
                       {
-                        type: "text",
-                        text: quote
+                        type: "paragraph",
+                        content: [
+                          {
+                            type: "text",
+                            text: quote
+                          },
+                        ],
                       },
                     ],
                   },
